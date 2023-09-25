@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>To Do</title>
+</head>
+<body>
+    <div class="container" id="container">
+        <h1>My Todos</h1>
+        <div class="input-div">
+            <div class="input-box">
+                <div class="input-boxes">
+                    <label for="name">Name</label> <br>
+                    <input type="text" id="name">
+                </div>
+                <div class="input-boxes">
+                    <label for="desc">Description</label> <br>
+                    <input type="text" id="desc">
+                </div>
+            </div>
+            <div class="btn-div">
+                <button id="add-btn" onclick="addTask()">Add Todo</button>
+            </div>
+        </div>
+
+        <!-- <div class="output-div" id="output-div">
+            <div class="left">
+                <h1 id="task-h">Task 1</h1>
+                <p id="task-d">This is my task one</p>
+            </div>
+            <div class="right">
+                <button class="edit-btn" onclick="editTask()">Update</button>
+                <button class="delete-btn" onclick="deleteTask()">Delete</button>
+            </div>
+        </div> -->
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
